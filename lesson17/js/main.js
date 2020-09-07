@@ -149,7 +149,7 @@ function carInfo {
 }
 
 var yearNow = new Date().getFullYear();
-var car {
+var car = {
     engine: 2000,
     model: 'Focus',
     name: 'Ford',
@@ -163,7 +163,7 @@ var car {
     }
 }; 
 
-var car2 {
+var car2 = {
     engine: 5000,
     model: 'Sorento',
     name: 'Kia',
