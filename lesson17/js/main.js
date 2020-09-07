@@ -144,7 +144,7 @@ function myPow(a, b, myPrint) {
  * - если сеттеру used присвоено значение 'used', ничего делать не нужно
  */
 
-function carInfo {
+function carInfo() {
     return `${this.name} ${this.model}, ${this.engine}cc, year ${this.year}, ${this.used}`;
 }
 
@@ -225,7 +225,7 @@ function myMul(a, b) {
  */
 
 function myDouble(n) {
-    return myMul.bind(null, 2)
+    return myMul.bind(null, 2);
 }
 
 // console.log(myDouble(3)); // = myMul(2, 3) = 6
