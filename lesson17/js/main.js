@@ -224,9 +224,7 @@ function myMul(a, b) {
  * Функция возвращает результат вычисления.
  */
 
-function myDouble(n) {
-    return myMul.bind(null, 2);
-}
+var myDouble = myMul.bind(null, 2); 
 
 // console.log(myDouble(3)); // = myMul(2, 3) = 6
 
@@ -236,9 +234,7 @@ function myDouble(n) {
 
 // аналогичным образом создайте функцию myTriple(n), которая утраивает принимающий параметр, возвращая результат.
 
-function myTriple(n) {
-    return myMul.bind(null, 3);
-}
+var myTriple = myMul.bind(null, 3);
 
 // console.log(myTriple(3)); // = myMul(3, 3) = 9
 
